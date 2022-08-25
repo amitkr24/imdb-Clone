@@ -1,0 +1,59 @@
+.item {
+    width: 23%;
+    float: left;
+    margin: 10px;
+  }
+  /* loader css */
+  #loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.87);
+    z-index: 9999;
+    }
+    #loader .loader-ring {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -50px 0 0 -50px;
+    width: 90px;
+    height: 90px;
+    }
+    #loader .loader-ring-light {
+    width: 90px;
+    height: 90px;
+    -moz-border-radius: 90px;
+    -webkit-border-radius: 90px;
+    border-radius: 90px;
+    -moz-box-shadow: 0 4px 0 #fb802d inset;
+    -webkit-box-shadow: 0 4px 0 #fb802d inset;
+    box-shadow: 0 4px 0 #fb802d inset;
+    -webkit-animation: spin 1.5s infinite;
+    animation: spin 1.5s infinite;
+    }
+    #loader .loader-ring-track {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90px;
+    height: 90px;
+    -moz-border-radius: 90px;
+    -webkit-border-radius: 90px;
+    border-radius: 90px;
+    -moz-box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.3) inset;
+    -webkit-box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.3) inset;
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.3) inset;
+    }
+    
+    @-webkit-keyframes spin {
+        0%   {-webkit-transform: rotate(0deg);}
+  
+        100% {-webkit-transform: rotate(360deg);}
+    }
+    @keyframes spin {
+        0%   {transform: rotate(0deg);}
+  
+        100% {transform: rotate(360deg);}
+    }
