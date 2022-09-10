@@ -8,7 +8,7 @@ if(mid){
 }else{
     params ='&s=all&y=2022';
 }
-const api_url ="http://www.omdbapi.com/?apikey=66783b37"+params;
+const api_url ="https://www.omdbapi.com/?apikey=66783b37"+params;
 
   
 // Defining async function

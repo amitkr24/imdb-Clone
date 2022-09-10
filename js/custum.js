@@ -41,7 +41,7 @@ function submitForm() {
     return movieSearch.submit();
 }
 function fetchResultOnkeyup(name){
-    fetch('http://www.omdbapi.com/?apikey=66783b37&s='+name)
+    fetch('https://www.omdbapi.com/?apikey=66783b37&s='+name)
     .then(data => {
         return data.json();
     })
@@ -88,7 +88,7 @@ if(title){
 }
 console.log('params'+params);
 //fetch data using api
-fetch('http://www.omdbapi.com/?apikey=66783b37'+params).then(data => {
+fetch('https://www.omdbapi.com/?apikey=66783b37'+params).then(data => {
     return data.json();
 })
 .then(post => {
