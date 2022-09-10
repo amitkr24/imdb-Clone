@@ -1,13 +1,13 @@
 # imdb-Clone
 
-<li>This is a repository for imDb Clone app Developed using HTML, CSS,Bootstrap,vanilla javascript.</li>
+<li>This is a repository for imDb Clone app Developed using HTML, CSS,Bootstrap,Vanilla javascript & omdb Api.</li>
 <br>
-<li> It is developed to create a soothing Experience with powerful features and clean interface.</li>
+<li> It is developed to create a smoothing Experience with powerful features and clean interface.</li>
 <br>
 
 # Problem Statement
 
-Create a mini IMDB clone app. Use ONLY vanilla javascript, no libraries or frameworks allowed for Javascript (you can use any CSS framework like Bootstrap).
+Create a mini IMDB clone app. Use ONLY Vanilla javascript, no libraries or frameworks allowed for Javascript (you can use any CSS framework like Bootstrap).
 
 <br>
 
