@@ -1,5 +1,4 @@
 // api url
-
 var url_string = window.location.href;
 var url = new URL(url_string);
 var mid = url.searchParams.get("mid");
@@ -49,6 +48,7 @@ function homePage(data) {
 	// Setting innerHTML as tab variable
 	document.getElementById("movie-list").innerHTML = tab;
 }
+
 // function for single page
 function singlePage(data){
 	// Loop to access all rows

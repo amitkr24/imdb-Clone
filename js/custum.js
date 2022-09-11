@@ -75,18 +75,12 @@ var title       = url.searchParams.get("title");
 var mid         = url.searchParams.get("mid");
 
 if(title){
-    console.log('case1');
     params = "&s="+title;
 }else if(mid){
     params = "&i="+mid;
-    console.log('case2');
-
 }else{
     params = "&s=all&y=2022";
-    console.log('case3');
-
 }
-console.log('params'+params);
 //fetch data using api
 fetch('https://www.omdbapi.com/?apikey=66783b37'+params).then(data => {
     return data.json();

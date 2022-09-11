@@ -218,8 +218,7 @@
 		let html = '';
 		movies.forEach((id) => {
 			//fetch data using api
-			console.log(id);
-			fetch('http://www.omdbapi.com/?apikey=66783b37&i='+id)
+			fetch('https://www.omdbapi.com/?apikey=66783b37&i='+id)
 			.then(data => {
 				return data.json();
 			})

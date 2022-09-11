@@ -22,6 +22,9 @@ Movie details can see by click on any movie in single page where movie details w
 2nd : Open git bash and clone the repositories
 3rd : Run index.html file
 
+# LINKS
+
+<a href = "https://amitkr24.github.io/imdb-Clone/"> <b>LIVE PRODUCT</b> </a>  &nbsp; <a href = "https://github.com/amitkr24/imdb-Clone.git"> <b>CODE</b> </a> <br>
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 
