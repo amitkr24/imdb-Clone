@@ -12,15 +12,15 @@ Create a mini IMDB clone app. Use ONLY Vanilla javascript, no libraries or frame
 <br>
 
 # About Project
-In this project One can filter the movie by using search field, view movie details like movie name,movie  type,Release date, type and plot, <br>
-User can also added there favourite movie in the favourite page by using favourite button and any time they can remove the movie from favourite list.<br>
-Movie details can see by click on any movie in single page where movie details will listed.<br>
+In this project One can filter the movie by using search field, view movie details like movie name,movie  type,Release date, type and plot,
+User can also added there favourite movie in the favourite page by using favourite button and any time they can remove the movie from favourite list.
+Movie details can see by click on any movie in single page where movie details will listed.
 
 
 # How to Set up Project in Your Local server
-1st : You copy the git repositories link from my git <a href="https://github.com/amitkr24/imdb-Clone.git">account</a>.
-2nd : Open git bash and clone the repositories
-3rd : Run index.html file
+1st : You copy the git repositories link from my git <a href="https://github.com/amitkr24/imdb-Clone.git">account</a>. <br>
+2nd : Open git bash and clone the repositories  <br>
+3rd : Run index.html file  <br>
 
 # LINKS
 
